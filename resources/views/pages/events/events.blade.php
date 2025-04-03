@@ -47,9 +47,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12 d-flex flex-wrap justify-content-center gap-3">
-                <a href="https://www.axs.com/" class="btn btn-outline-light btn-lg">Buy Tickets</a>
-                <a href="https://globaldancefestival.com/tickets/ga-tickets/" class="btn btn-outline-light btn-lg">Event Details</a>
-                <a href="https://globaldancefestival.com/tickets/vip-tickets/" class="btn btn-outline-light btn-lg">Performances</a>
+                <a href="#" class="btn btn-outline-light btn-lg">Buy Tickets</a>
+                <a href="#" class="btn btn-outline-light btn-lg">Event Details</a>
+                <a href="https://globaldancefestival.com/tickets/vip-tickets/" class="btn btn-outline-light btn-lg">Call of Artists</a>
                 <a href="https://globaldancefestival.com/lineup/" class="btn btn-outline-light btn-lg">Location</a>
             </div>
         </div>
@@ -65,11 +65,17 @@
                     <h2 class="card-title text-center mb-0 text-white">Event Details</h2>
                 </div>
                 <div class="card-body p-md-5">
-                    <p class="lead mb-4">The Global Dance Festival is coming this summer! Mark your calendars and get ready for an unforgettable experience! We are thrilled to host one of Vancouver's premier global dance festivals at the Bell Performing Arts Centre.</p>
-                    
-                    <p>Join us on Saturday, August 23rd, from 4:30 PM to 8:30 PM as we showcase some of the finest dance performances from across Greater Vancouver. We are also excited to announce a special performance from a local school that you won't want to miss.</p>
-                    
-                    <p>2025 promises to take the Global Dance Festival to new heights, with an even larger and more spectacular event than ever before. This year, the festival will be one of the largest annual summer dance events in Greater Vancouver, offering an exclusive opportunity to connect with prominent Canadian businesses and local vendors for a truly immersive experience.</p>
+                    <p class="lead mb-4">Welcome to the Global Dance Festival 2025: Fusion of Diversity!
+Get ready for Surrey’s most electrifying event of the year—the Global Dance Festival 2025: Fusion of Diversity! On August 23rd, the Bell Performing Arts Centre will ignite with a breathtaking celebration of movement, culture, and passion.
+<br><br>🌍 A Spectacle of Global Rhythms
+From the grace of Indian Classical Dance to the high-energy beats of Hip Hop, Jazz, and Latin rhythms, witness an awe-inspiring fusion of styles that transcend borders. Experience the magic of storytelling through dance, as talented performers, including those with special abilities, bring their own extraordinary flair to the stage. <br>
+<br>🎭 More Than Just a Festival—An Unforgettable Experience!
+Immerse yourself in a vibrant atmosphere beyond the performances. Explore a lively cultural marketplace, indulge in delicious international flavors, and celebrate diversity, inclusivity, and unity in a way that only dance can express.
+<br><br>💡 Opportunities for Businesses & Brands
+Be part of something extraordinary! Exciting sponsorship opportunities are available for businesses to showcase their values and connect with a dynamic, diverse audience.
+<br><br>🎟 Reserve Your Spot Now!
+With limited seats available, don’t miss your chance to be part of this spectacular celebration. Secure your tickets today and get ready to make unforgettable memories!
+<br><br>✨ The rhythm is calling. Are you ready to make history?</p>
                     
                     <h3 class="mt-5 mb-3 text-theme-primary">Event Highlights:</h3>
                     <ul class="list-group list-group-flush mb-4">
@@ -211,11 +217,11 @@
                         <img src="{{ asset('assets/img/event_sec_img_1.jpg') }}" class="card-img-top" alt="BC Children's Hospital">
                     </div>
                     <div class="card-body">
-                        <h3 class="card-title h4 text-theme-primary">Charity Partner</h3>
+                        <h3 class="card-title h4 text-theme-primary"> Partially Proceeds as Donations</h3>
                         <p class="card-text">Supporting BC Children's Hospital with a portion of all ticket sales donated to help children in need.</p>
                     </div>
                     <div class="card-footer bg-white border-0">
-                        <a href="#" class="btn btn-theme-outline">Learn More</a>
+                        <a href="https://secured.bcchf.ca/registrant/FundraisingPage.aspx?registrationID=5513482&langPref=en-CA#&panel1-4" class="btn btn-theme-outline">Donate Now</a>
                     </div>
                 </div>
             </div>
@@ -231,7 +237,7 @@
                         <p class="card-text">Experience a heartwarming performance by students from a special needs school that will inspire everyone.</p>
                     </div>
                     <div class="card-footer bg-white border-0">
-                        <a href="#" class="btn btn-theme-outline">View Schedule</a>
+                        <a href="https://docs.google.com/forms/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/viewform?edit_requested=true" class="btn btn-theme-outline">Register Now</a>
                     </div>
                 </div>
             </div>

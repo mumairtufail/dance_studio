@@ -451,8 +451,8 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/gallery">Gallery</a></li>
-                    <li><a href="/services">Services</a></li>
-                                        <li><a href="/events">Events</a></li>
+                    <li><a href="/services">Classes</a></li>
+                                        <li><a href="/events">Event</a></li>
                     <li><a href="/contact">Contact Us</a></li>
 
                 </ul>
@@ -492,7 +492,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="/"><img src="assets/img/Logo_Spandan_1.png" alt="Danza"></a>
+                                <a href="/"><img src="assets/img/Logo_Spandan_1.png" alt="Spandan"></a>
                                 <!-- <a href="index.html"><img src="assets/img/Logo_Spandan.png" alt="Danza"></a> -->
                                 <!-- <a href="index.html"><img src="assets/img/logo.svg" alt="Danza"></a> -->
                             </div>
@@ -521,7 +521,7 @@
                                 <button type="button" class="icon-btn fs-6 sideMenuToggler">
                                     <i class="fa-thin fa-grid"></i>
                                 </button> -->
-                                <a href="/contact" class="th-btn">Book Now</a>
+                                <a href="https://docs.google.com/forms/u/4/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/edit?authuser=0" class="th-btn">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -531,3 +531,444 @@
             <div class="menu-bg"></div>
         </div>
     </header>
+    <style>
+        
+/*------------------- 4.00. Gallery -------------------*/
+/* Gallery 1 ---------------------------------- */
+.gallery-row {
+  --bs-gutter-y: 1.5rem;
+}
+/* Base styles for all screen sizes */
+.gallery-row .filter-item .gallery-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-row .filter-item .gallery-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Small mobile devices (320px and up) */
+@media (min-width: 320px) {
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .gallery-row .filter-item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .gallery-row .filter-item .gallery-img {
+    height: 250px;
+  }
+}
+
+/* Medium mobile devices (576px and up) */
+@media (min-width: 576px) {
+  .gallery-row .filter-item {
+    width: calc(50% - 10px);
+  }
+  
+  .gallery-row .filter-item:nth-child(3) .gallery-img {
+    height: 350px;
+  }
+}
+
+/* Tablets (768px and up) */
+@media (min-width: 768px) {
+  .gallery-row {
+    gap: 20px;
+  }
+  
+  .gallery-row .filter-item {
+    width: calc(50% - 10px);
+  }
+}
+
+/* Small to medium desktops (992px and up) */
+@media (min-width: 992px) and (max-width: 1399px) {
+  /* Set up a flex container with consistent spacing */
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  /* Two items per row with percentage-based width */
+  .gallery-row .filter-item {
+    width: calc(50% - 15px);
+    margin: 0 0 30px 0;
+  }
+  
+  /* Special handling for the third (tall) item */
+  .gallery-row .filter-item:nth-child(3) {
+    width: calc(33% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Image sizing */
+  .gallery-row .filter-item .gallery-img {
+    width: 100%;
+    height: 30vw;  /* Height based on viewport width */
+    max-height: 300px;
+  }
+  
+  /* Make the third image taller */
+  .gallery-row .filter-item:nth-child(3) .gallery-img {
+    height: 60vw;
+    max-height: 600px;
+  }
+  
+  /* Clear the 3rd item to a new line */
+  .gallery-row .filter-item:nth-child(3) {
+    clear: both;
+  }
+  
+  /* Make sure 4th and 5th are on the same line */
+  .gallery-row .filter-item:nth-child(4),
+  .gallery-row .filter-item:nth-child(5) {
+    clear: none;
+  }
+}
+
+/* Extra large desktops (1400px and up) */
+@media (min-width: 1400px) {
+  /* Keep the same flex layout but increase sizes */
+  .gallery-row {
+    gap: 20px;
+  }
+  
+  .gallery-row .filter-item:nth-child(1),
+  .gallery-row .filter-item:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-row .filter-item:nth-child(1) .gallery-img {
+    width: 425px;
+    height: 275px;
+  }
+  
+  .gallery-row .filter-item:nth-child(2) .gallery-img {
+    width: 375px;
+    height: 275px;
+  }
+  
+  .gallery-row .filter-item:nth-child(3) .gallery-img {
+    width: 325px;
+    height: 580px;
+  }
+  
+  .gallery-row .filter-item:nth-child(4) .gallery-img {
+    width: 375px;
+    height: 275px;
+  }
+  
+  .gallery-row .filter-item:nth-child(5) .gallery-img {
+    width: 425px;
+    height: 275px;
+  }
+}
+
+/* Your existing styles for very large screens */
+@media (min-width: 1650px) {
+  .gallery-row .filter-item .gallery-img img {
+    width: 100%;
+  }
+
+  .gallery-row .filter-item:nth-child(1) .gallery-img img {
+    width: 455px;
+    height: 290px;
+  }
+
+  .gallery-row .filter-item:nth-child(2) .gallery-img img {
+    width: 390px;
+    height: 290px;
+  }
+
+  .gallery-row .filter-item:nth-child(3) .gallery-img img {
+    width: 325px;
+    height: 600px;
+  }
+
+  .gallery-row .filter-item:nth-child(4) .gallery-img img {
+    width: 380px;
+    height: 290px;
+  }
+
+  .gallery-row .filter-item:nth-child(5) .gallery-img img {
+    width: 445px;
+    height: 290px;
+  }
+
+  .gallery-row .filter-item:nth-child(6) .gallery-img img {
+    width: 650px;
+    height: 300px;
+  }
+
+  .gallery-row .filter-item:nth-child(7) .gallery-img img {
+    width: 545px;
+    height: 300px;
+  }
+
+  /* image container */
+  .gallery-row .filter-item:nth-child(1) .gallery-img {
+    width: 455px;
+    height: 290px;
+  }
+
+  .gallery-row .filter-item:nth-child(2) .gallery-img {
+    width: 390px;
+    height: 290px;
+  }
+
+  .gallery-row .filter-item:nth-child(3) .gallery-img {
+    width: 325px;
+    height: 600px;
+  }
+
+  .gallery-row .filter-item:nth-child(4) .gallery-img {
+    width: 380px;
+    height: 290px;
+  }
+
+  .gallery-row .filter-item:nth-child(5) .gallery-img {
+    width: 445px;
+    height: 290px;
+  }
+
+  .gallery-row .filter-item:nth-child(6) .gallery-img {
+    width: 650px;
+    height: 300px;
+  }
+
+  .gallery-row .filter-item:nth-child(7) .gallery-img {
+    width: 545px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gallery-row .col-md-6,
+  .gallery-row .col-lg-6 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .gallery-row .col-xl-auto {
+    width: auto;
+  }
+}
+
+.gallery-card {
+  position: relative;
+}
+
+.gallery-card .gallery-img {
+  position: relative;
+  border-radius: 20px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.gallery-card .gallery-img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: rgba(22, 25, 33, 0.6);
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.gallery-card .gallery-img img {
+  border-radius: 20px;
+}
+
+.gallery-card .gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.gallery-card .icon-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 20px 0 0 -28px;
+  background-color: var(--theme-color);
+  color: var(--white-color);
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 20px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.gallery-card .icon-btn:hover {
+  background-color: var(--white-color);
+  color: var(--theme-color);
+}
+
+.gallery-card2 {
+  position: relative;
+}
+
+.gallery-card2 .gallery-img {
+  position: relative;
+  border-radius: 20px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.gallery-card2 .gallery-img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: var(--title-color);
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.gallery-card2 .gallery-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.gallery-card2 .gallery-content {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+      -ms-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.gallery-card2 .icon-btn {
+  --btn-size: 40px;
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+  color: var(--white-color);
+  margin-bottom: 30px;
+}
+
+.gallery-card2 .box-title {
+  color: var(--white-color);
+  margin-bottom: 0;
+}
+
+.gallery-card2 .box-text {
+  color: var(--theme-color);
+}
+
+.gallery-card2:hover .gallery-img:before {
+  opacity: 0.8;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.gallery-card2:hover .gallery-content {
+  bottom: 50%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.filter-item .gallery-card:hover .icon-btn {
+  margin: -28px 0 0 -28px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.filter-item .gallery-card:hover .gallery-img:before {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+  visibility: visible;
+  opacity: 1;
+}
+
+.filter-item .gallery-card:hover .gallery-overlay {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+  visibility: visible;
+  opacity: 1;
+}
+
+.filter-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  gap: 10px 10px;
+  margin-top: 22px;
+  position: relative;
+  /* Medium devices */
+}
+
+@media (max-width: 991px) {
+  .filter-menu {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0 30px 0;
+  }
+}
+
+    </style>

@@ -19,8 +19,8 @@
                         <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.5s">World Of <span class="text-theme">Dance!</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.7s">Experience the joy of movement at our premier dance academy. We offer classes for all ages and skill levels in a supportive and creative environment.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.9s">
-                            <a href="/contact" class="th-btn red-btn">Apply Now</a>
-                            <a href="/about" class="th-btn style2">Learn More</a>
+                            <a href="https://docs.google.com/forms/u/4/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/edit?authuser=0" class="th-btn red-btn">Apply Now</a>
+                            <!-- <a href="/about" class="th-btn style2">Learn More</a> -->
                         </div>
                     </div>
                 </div>
@@ -39,8 +39,8 @@
                         <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.5s">Of Diversity <span class="text-theme">2025</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.7s">Join us for our annual celebration showcasing dance styles from around the world. Experience cultural performances, workshops, and collaborative choreographies.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.9s">
-                            <a href="/contact" class="th-btn red-btn">Apply Now</a>
-                            <a href="/about" class="th-btn style2">Learn More</a>
+                            <a href="https://docs.google.com/forms/u/4/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/edit?authuser=0" class="th-btn red-btn">Apply Now</a>
+                            <!-- <a href="/about" class="th-btn style2">Learn More</a> -->
                         </div>
                     </div>
                 </div>
@@ -59,8 +59,8 @@
                         <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.5s">Express Your <span class="text-theme">Soul</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.7s">Our expert instructors guide students through technical excellence and artistic expression. From beginners to professionals, find your perfect dance journey with us.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.9s">
-                            <a href="/contact" class="th-btn red-btn">Apply Now</a>
-                            <a href="/about" class="th-btn style2">Learn More</a>
+                            <a href="https://docs.google.com/forms/u/4/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/edit?authuser=0" class="th-btn red-btn">Apply Now</a>
+                            <!-- <a href="/about" class="th-btn style2">Learn More</a> -->
                         </div>
                     </div>
                 </div>
@@ -87,8 +87,11 @@ About Area
                         <span class="sub-title style1 mt-n1">about The Dance School</span>
                         <h2 class="sec-title">We provide quality dance education</h2>
                     </div>
-                    <p class="sec-desc mt-n2 mb-35">Founded with a passion for dance and artistic expression, our academy has been nurturing talent and building a vibrant community. We've grown from a small studio into a comprehensive dance center where students of all ages discover the joy of movement and develop their technical skills.</p>
-                    <p class="sec-desc mt-n3 mb-35">Our experienced instructors bring a wealth of knowledge and enthusiasm to every class. We pride ourselves on creating an inclusive environment that fosters creativity, discipline, and personal growth through the transformative power of dance.</p>
+                    <p class="sec-desc mt-n2 mb-35">Spandan Arts Dance Academy was founded in 2018 by Pallawi Kushwaha and Piyali Ray. Named after the Sanskrit word for "heartbeat," our academy transforms movement into meaningful artistic expression.</p>
+                    <p class="sec-desc mt-n3 mb-35">We offer Bollywood, Classical, Fusion, and Folk dance styles, blending rich Indian traditions with modern interpretations. Our mission is to bring Indian dance to Canada while fostering innovation and individuality. Our instructors help students develop confidence and grace while appreciating movement's beauty.</p>
+                    <p class="sec-desc mt-n3 mb-35">Join Spandan Arts, where dance becomes the heartbeat of culture. </p>
+
+
                     <div class="btn-group style2">
                         <a href="/about" class="th-btn">LEARN MORE</a>
                     </div>
@@ -713,6 +716,7 @@ Testimonial Area
     <!--==============================
 Gallery Area  
 ==============================-->
+
     <div class="overflow-hidden space ">
         <div class="container">
             <div class="title-area text-center">
@@ -720,46 +724,7 @@ Gallery Area
                 <h2 class="sec-title">Our Dance class gallery</h2>
             </div>
             <div class="row gallery-row filter-active">
-                <!--<div class="col-md-6 col-xl-auto filter-item cat3 cat4">-->
-                <!--    <div class="gallery-card">-->
-                <!--        <div class="gallery-img">-->
-                <!--            <img src="assets/img/img_20.jpeg" alt="gallery image">-->
-                <!--            <a href="assets/img/img_20.jpeg" class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="col-md-6 col-xl-auto filter-item cat5 cat1">-->
-                <!--    <div class="gallery-card">-->
-                <!--        <div class="gallery-img">-->
-                <!--            <img src="assets/img/img_7.jpeg" alt="gallery image">-->
-                <!--            <a href="assets/img/img_7.jpeg" class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="col-md-6 col-xl-auto filter-item cat2 cat4">-->
-                <!--    <div class="gallery-card">-->
-                <!--        <div class="gallery-img">-->
-                <!--            <img src="assets/img/img_26.jpeg" alt="gallery image">-->
-                <!--            <a href="assets/img/img_26.jpeg" class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="col-md-6 col-xl-auto filter-item cat1 cat4">-->
-                <!--    <div class="gallery-card">-->
-                <!--        <div class="gallery-img">-->
-                <!--            <img src="assets/img/img_18.jpeg" alt="gallery image">-->
-                <!--            <a href="assets/img/img_18.jpeg" class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</div>-->
-                <!--<div class="col-md-6 col-xl-auto filter-item cat3 cat2">-->
-                <!--    <div class="gallery-card">-->
-                <!--        <div class="gallery-img">-->
-                <!--            <img src="assets/img/img_27.jpeg" alt="gallery image">-->
-                <!--            <a href="assets/img/img_27.jpeg" class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</div>-->
+
                 <div class="col-md-6 col-xl-auto filter-item cat3 cat4">
                     <div class="gallery-card">
                         <div class="gallery-img">
