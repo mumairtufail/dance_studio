@@ -47,14 +47,17 @@
     <div class="container">
         <div class="row">
             <div class="col-12 d-flex flex-wrap justify-content-center gap-3">
-                <a href="#" class="btn btn-outline-light btn-lg">Buy Tickets</a>
-                <a href="#" class="btn btn-outline-light btn-lg">Event Details</a>
-                <a href="https://globaldancefestival.com/tickets/vip-tickets/" class="btn btn-outline-light btn-lg">Call of Artists</a>
-                <a href="https://globaldancefestival.com/lineup/" class="btn btn-outline-light btn-lg">Location</a>
+                <a href="https://docs.google.com/forms/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/viewform?edit_requested=true" class="btn btn-outline-light btn-lg">Buy Tickets</a>
+                <a href="#festival-details" class="btn btn-outline-light btn-lg">Event Details</a>
+                <a href="https://docs.google.com/forms/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/viewform?edit_requested=true" class="btn btn-outline-light btn-lg">Register to Perform</a>
+                <a href="#location" class="btn btn-outline-light btn-lg">Location</a>
+                <a href="#festival-attractions" class="btn btn-outline-light btn-lg">Sponsor/Vendor</a>
+                <a href="#festival-attractions" class="btn btn-outline-light btn-lg">Donations</a>
             </div>
         </div>
     </div>
 </div>
+
 <!-- Main Content -->
 <div class="container my-5">
     <!-- Event Information -->
@@ -92,7 +95,7 @@ With limited seats available, don’t miss your chance to be part of this specta
     </div>
 
     <!-- Festival Details -->
-<div class="row mb-5">
+<div class="row mb-5" id="festival-details">
     <div class="col-lg-10 mx-auto">
         <div class="card shadow border-0">
             <div class="card-header bg-theme-primary text-white py-3">
@@ -203,7 +206,7 @@ With limited seats available, don’t miss your chance to be part of this specta
 </div>
 
 <!-- Attractions Section -->
-<div class="full-width-news bg-light py-5">
+<div class="full-width-news bg-light py-5" id="festival-attractions">
     <div class="container">
         <div class="row">
             <div class="col-12 mb-4">
@@ -246,7 +249,7 @@ With limited seats available, don’t miss your chance to be part of this specta
             <div class="col-md-4 mb-4">
                 <div class="card h-100 shadow">
                     <div class="card-img-container">
-                        <img src="{{ asset('assets/img/img_12.jpeg') }}" class="card-img-top" alt="Local Vendors">
+                        <img src="{{ asset('sponsor.jpeg') }}" class="card-img-top" alt="Local Vendors">
                     </div>
                     <div class="card-body">
                         <h3 class="card-title h4 text-theme-primary">Local Vendors</h3>
@@ -262,7 +265,7 @@ With limited seats available, don’t miss your chance to be part of this specta
 </div>
 
 <!-- Map Section -->
-<div class="container my-5">
+<div class="container my-5" id="location">
     <div class="row">
         <div class="col-lg-10 mx-auto">
             <div class="card shadow border-0">

@@ -19,7 +19,7 @@
                         <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.5s">World Of <span class="text-theme">Dance!</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.7s">Experience the joy of movement at our premier dance academy. We offer classes for all ages and skill levels in a supportive and creative environment.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.9s">
-                            <a href="https://docs.google.com/forms/u/4/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/edit?authuser=0" class="th-btn red-btn">Apply Now</a>
+                            <a href="https://form.jotform.com/artsspandan/class-registration-form" class="th-btn red-btn">Apply Now</a>
                             <!-- <a href="/about" class="th-btn style2">Learn More</a> -->
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                         <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.5s">Of Diversity <span class="text-theme">2025</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.7s">Join us for our annual celebration showcasing dance styles from around the world. Experience cultural performances, workshops, and collaborative choreographies.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.9s">
-                            <a href="https://docs.google.com/forms/u/4/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/edit?authuser=0" class="th-btn red-btn">Apply Now</a>
+                            <a href="https://form.jotform.com/artsspandan/class-registration-form" class="th-btn red-btn">Apply Now</a>
                             <!-- <a href="/about" class="th-btn style2">Learn More</a> -->
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.5s">Express Your <span class="text-theme">Soul</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.7s">Our expert instructors guide students through technical excellence and artistic expression. From beginners to professionals, find your perfect dance journey with us.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.9s">
-                            <a href="https://docs.google.com/forms/u/4/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/edit?authuser=0" class="th-btn red-btn">Apply Now</a>
+                            <a href="https://form.jotform.com/artsspandan/class-registration-form" class="th-btn red-btn">Apply Now</a>
                             <!-- <a href="/about" class="th-btn style2">Learn More</a> -->
                         </div>
                     </div>
@@ -205,133 +205,199 @@ Dance Classes Area
 
 <section class="space bg-smoke couple-area-sec" data-bg-src="assets/img/img_3.jpeg" id="classes">
     <style>
+        /* General card styles */
         .couple-card_img {
             height: 200px;
+            overflow: hidden;
+            border-radius: 10px 10px 0 0;
         }
         .couple-card_img img {
             height: 200px;
+            width: 100%;
+            object-fit: cover;
         }
-        .couple-card{
+        .couple-card {
             height: 500px;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin: 20px 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .couple-card_title {
+            padding: 15px 20px 5px;
+            font-size: 18px;
+            line-height: 1.3;
+            margin-bottom: 5px;
+        }
+        .couple-card_title a {
+            color: #333;
+            text-decoration: none;
+        }
+        .couple-card_text {
+            padding: 0 20px 20px;
+            font-size: 13px;
+            line-height: 1.4;
+            color: #666;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+        
+        /* Carousel container and navigation */
+        .carousel-container {
+            position: relative;
+            padding: 0 50px;
+            margin-top: 30px;
+        }
+        
+        /* Navigation buttons - more prominent */
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 100;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-btn:hover {
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        
+        .nav-btn.prev {
+            left: 0;
+        }
+        
+        .nav-btn.next {
+            right: 0;
+        }
+        
+        .nav-btn i {
+            font-size: 18px;
+            color: #333;
+        }
+        
+        /* Title styling */
+        .sub-title.style1 {
+            color: #ff3366;
+            font-style: italic;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .sec-title {
+            font-size: 42px;
+            margin-bottom: 30px;
         }
     </style>
+    
     <div class="container">
-        <div class="row text-center text-lg-start justify-content-lg-between align-items-end">
-            <div class="col-lg-7 mb-n2 mb-lg-0">
+        <!-- Section heading -->
+        <div class="row text-center">
+            <div class="col-lg-12 mb-4">
                 <div class="title-area">
-                    <span class="sub-title style1  mt-n1">Our Dance Classes</span>
-                    <h2 class="sec-title">Dance Classes for everyone</h2>
-                </div>
-            </div>
-            <div class="col-lg-auto">
-                <div class="sec-btn">
-                    <div class="icon-box">
-                        <button data-slick-prev="#danceSlide" class="slick-arrow default"><i class="far fa-arrow-left"></i></button>
-                        <button data-slick-next="#danceSlide" class="slick-arrow default"><i class="far fa-arrow-right"></i></button>
-                    </div>
+                    <span class="sub-title style1">Our Dance Classes</span>
+                    <h2 class="sec-title text-white">Dance Classes For Everyone</h2>
                 </div>
             </div>
         </div>
-        <div class="row slider-shadow th-carousel" id="danceSlide" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1">
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_1.jpg" alt="couple">
+        
+        <!-- Carousel with side navigation -->
+        <div class="carousel-container">
+            <!-- Navigation buttons -->
+            <button class="nav-btn prev" data-slick-prev="#danceSlide">
+                <i class="far fa-arrow-left"></i>
+            </button>
+            
+            <button class="nav-btn next" data-slick-next="#danceSlide">
+                <i class="far fa-arrow-right"></i>
+            </button>
+            
+            <!-- Carousel content -->
+            <div class="row slider-shadow th-carousel" id="danceSlide" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
+                <div class="col-lg-4 col-md-6">
+                    <div class="couple-card">
+                        <div class="couple-card_img">
+                            <img src="assets/img/image_1.jpg" alt="Kids/Youth Bollywood Dance">
+                        </div>
+                        <h3 class="couple-card_title"><a href="">Kids/Youth Bollywood</a></h3>
+                        <p class="couple-card_text">Fun and energetic classes for ages 5-16. Learn popular moves from Indian cinema while developing rhythm, coordination, and confidence through colorful choreography.</p>
                     </div>
-                    <h3 class="couple-card_title"><a href="">Kids/Youth Bollywood</a></h3>
-                    <p class="couple-card_text">Fun and energetic classes for ages 5-16. Learn popular moves from Indian cinema while developing rhythm, coordination, and confidence through colorful choreography.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="couple-card">
+                        <div class="couple-card_img">
+                            <img src="assets/img/image_2.jpg" alt="Kids/Youth Bolly Hip-hop/Jazz">
+                        </div>
+                        <h3 class="couple-card_title"><a href="">Kids/Youth Bolly Hip-hop/Jazz</a></h3>
+                        <p class="couple-card_text">Dynamic fusion classes blending Bollywood with contemporary styles. Young dancers explore creative movement while learning techniques from multiple dance traditions.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="couple-card">
+                        <div class="couple-card_img">
+                            <img src="assets/img/image_3.jpg" alt="Kids/Youth Bharatanatyam">
+                        </div>
+                        <h3 class="couple-card_title"><a href="">Kids/Youth Bharatanatyam</a></h3>
+                        <p class="couple-card_text">Classical Indian dance for young performers. Students learn foundational postures, expressive gestures, and storytelling in an engaging, age-appropriate format.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="couple-card">
+                        <div class="couple-card_img">
+                            <img src="assets/img/image_4.jpg" alt="Adult Bollywood">
+                        </div>
+                        <h3 class="couple-card_title"><a href="">Adult Bollywood</a></h3>
+                        <p class="couple-card_text">Experience the joy of Bollywood dance designed for all adult skill levels. Learn signature moves from classic and modern Indian cinema in a supportive environment.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="couple-card">
+                        <div class="couple-card_img">
+                            <img src="assets/img/image_5.jpg" alt="Adult Bharatanatyam">
+                        </div>
+                        <h3 class="couple-card_title"><a href="/">Adult Bharatanatyam</a></h3>
+                        <p class="couple-card_text">Discover this classical dance form at your own pace. Our adult classes focus on developing grace, precision and expression through traditional technique.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="couple-card">
+                        <div class="couple-card_img">
+                            <img src="assets/img/image_6.jpeg" alt="Adult Bollywood Workout">
+                        </div>
+                        <h3 class="couple-card_title"><a href="/">Adult Bollywood Workout</a></h3>
+                        <p class="couple-card_text">Get fit while having fun in our energetic fitness classes. Combine cardio exercise with dance moves from popular Indian films for an effective, enjoyable workout.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="couple-card">
+                        <div class="couple-card_img">
+                            <img src="assets/img/image_7.jpg" alt="Kids Spring/summer camps">
+                        </div>
+                        <h3 class="couple-card_title"><a href="/">Kids Spring/Summer Camps</a></h3>
+                        <p class="couple-card_text">Immersive dance experiences during school breaks. Our camps teach various Indian dance styles while helping children create performances and make friends.</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_2.jpg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="">Kids/Youth Bolly Hip-hop/Jazz</a></h3>
-                    <p class="couple-card_text">Dynamic fusion classes blending Bollywood with contemporary styles. Young dancers explore creative movement while learning techniques from multiple dance traditions.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_3.jpg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="">Kids/Youth Bharatanatyam</a></h3>
-                    <p class="couple-card_text">Classical Indian dance for young performers. Students learn foundational postures, expressive gestures, and storytelling in an engaging, age-appropriate format.</p>
-                    <!--<a href="" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_4.jpg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="">Adult Bollywood</a></h3>
-                    <p class="couple-card_text">Experience the joy of Bollywood dance designed for all adult skill levels. Learn signature moves from classic and modern Indian cinema in a supportive environment.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_5.jpg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="/">Adult Bharatanatyam</a></h3>
-                    <p class="couple-card_text">Discover this classical dance form at your own pace. Our adult classes focus on developing grace, precision and expression through traditional technique.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_6.jpeg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="/">Adult Bollywood Workout</a></h3>
-                    <p class="couple-card_text">Get fit while having fun in our energetic fitness classes. Combine cardio exercise with dance moves from popular Indian films for an effective, enjoyable workout.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_7.jpg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="/">Kids Spring/summer camps</a></h3>
-                    <p class="couple-card_text">Immersive dance experiences during school breaks. Our camps teach various Indian dance styles while helping children create performances and make friends.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <!--<div class="col-lg-4 col-md-6">-->
-            <!--    <div class="couple-card">-->
-            <!--        <div class="couple-card_img">-->
-            <!--            <img src="assets/img/img_13.jpeg" alt="couple">-->
-            <!--        </div>-->
-            <!--        <h3 class="couple-card_title"><a href="/">Cardio Dance</a></h3>-->
-            <!--        <p class="couple-card_text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sit amet aliquam.</p>-->
-            <!--        <a href="/" class="th-btn style3">Explore Details</a>-->
-            <!--    </div>-->
-            <!--</div>-->
-
-            <!--<div class="col-lg-4 col-md-6">-->
-            <!--    <div class="couple-card">-->
-            <!--        <div class="couple-card_img">-->
-            <!--            <img src="assets/img/img_2.jpeg" alt="couple">-->
-            <!--        </div>-->
-            <!--        <h3 class="couple-card_title"><a href="/">Break Dance</a></h3>-->
-            <!--        <p class="couple-card_text">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt quis ac velit lectus.</p>-->
-            <!--        <a href="/" class="th-btn style3">Explore Details</a>-->
-            <!--    </div>-->
-            <!--</div>-->
-
         </div>
     </div>
 </section>
@@ -425,28 +491,50 @@ Dance Technic Area
     <!--==============================
 Counter Area  
 ==============================-->
-    <div class="counter-sec-space" data-bg-src="assets/img/img_21.jpeg">
-        <div class="container z-index-common">
-            <div class="counter-card_wrapper">
-                <div class="counter-card">
-                    <h2 class="counter-card_number"><span class="counter-number">146</span>+</h2>
-                    <p class="counter-card_text">dance classes</p>
-                </div>
-                <div class="counter-card">
-                    <h2 class="counter-card_number"><span class="counter-number">50</span>+</h2>
-                    <p class="counter-card_text">Best Instructor</p>
-                </div>
-                <div class="counter-card">
-                    <h2 class="counter-card_number"><span class="counter-number">15</span>+</h2>
-                    <p class="counter-card_text">Total Brunch</p>
-                </div>
-                <div class="counter-card">
-                    <h2 class="counter-card_number"><span class="counter-number">560</span>+</h2>
-                    <p class="counter-card_text">Happy customer</p>
-                </div>
+<div class="counter-sec-space" data-bg-src="assets/img/img_21.jpeg">
+    <style>
+        /* Background image positioning styles */
+        .counter-sec-space {
+            position: relative;
+            background-size: cover;
+            background-position: center 10%; /* Move the image down by adjusting the vertical position */
+            padding: 80px 0;
+            overflow: hidden;
+        }
+       
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .counter-card {
+                min-width: 150px;
+                padding: 20px;
+            }
+            
+            .counter-card_number {
+                font-size: 36px;
+            }
+            
+            .counter-card_text {
+                font-size: 16px;
+            }
+        }
+    </style>
+    <div class="container z-index-common">
+        <div class="counter-card_wrapper">
+            <div class="counter-card">
+                <h2 class="counter-card_number"><span class="counter-number">146</span>+</h2>
+                <p class="counter-card_text">dance classes</p>
+            </div>
+            <div class="counter-card">
+                <h2 class="counter-card_number"><span class="counter-number">5</span>+</h2>
+                <p class="counter-card_text">Experience</p>
+            </div>
+            <div class="counter-card">
+                <h2 class="counter-card_number"><span class="counter-number">560</span>+</h2>
+                <p class="counter-card_text">Happy customer</p>
             </div>
         </div>
     </div>
+</div>
    <!--==============================
 Servce Area  
 ==============================-->
@@ -525,23 +613,25 @@ Team Area
         <div class="container">
             <div class="title-area text-center">
                 <span class="sub-title mt-n1">Dance Teacher</span>
-                <h2 class="sec-title">Our Professional Instructor</h2>
+                <h2 class="sec-title">Our Professional Team</h2>
             </div>
             <div class="row slider-shadow th-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true">
                 <!-- Single Item -->
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="team-box">
                         <div class="team-img">
-                            <img src="assets/img/img_16.jpeg" alt="Team">
+                            <img src="assets/piyali_ray.jpeg" alt="Team">
                         </div>
                         <div class="team-content">
-                            <h3 class="team-title box-title"><a href="single-instructor.html">Sammy Houston</a></h3>
-                            <span class="team-desig">Instructor</span>
+                            <h3 class="team-title box-title"><a href="">Piyali Ray</a></h3>
+                            <span class="team-desig">Founder & Director</span>
+                            <span class="team-desig"></span>
+
                             <div class="team-social">
-                                <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -551,16 +641,18 @@ Team Area
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="team-box">
                         <div class="team-img">
-                            <img src="assets/img/img_17.jpeg" alt="Team">
+                            <img src="assets/pallawi.jpeg" alt="Team">
                         </div>
                         <div class="team-content">
-                            <h3 class="team-title box-title"><a href="single-instructor.html">Jenifer Lopez</a></h3>
-                            <span class="team-desig">Coreographer</span>
+                            <h3 class="team-title box-title"><a href="">Pallawi Kushwaha</a></h3>
+                            <span class="team-desig">Founder & Director</span>
+                            <span class="team-desig"></span>
+
                             <div class="team-social">
-                                <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -570,16 +662,17 @@ Team Area
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="team-box">
                         <div class="team-img">
-                            <img src="assets/img/img_19.jpeg" alt="Team">
+                            <img src="assets/Gayatri.jpeg" alt="Team">
                         </div>
                         <div class="team-content">
-                            <h3 class="team-title box-title"><a href="single-instructor.html">David Milton</a></h3>
-                            <span class="team-desig">Zumba Teacher</span>
+                            <h3 class="team-title box-title"><a href="">Gayatri Shivakumar</a></h3>
+                            <span class="team-desig">Bharatanatyam Dancer</span>
+                            
                             <div class="team-social">
-                                <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -589,23 +682,23 @@ Team Area
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="team-box">
                         <div class="team-img">
-                            <img src="assets/img/img_12.jpeg" alt="Team">
+                            <img src="assets/Vricha.jpeg" alt="Team">
                         </div>
                         <div class="team-content">
-                            <h3 class="team-title box-title"><a href="single-instructor.html">Ellen Harrington</a></h3>
-                            <span class="team-desig">Gym Instructor</span>
+                            <h3 class="team-title box-title"><a href="">Vricha Dave</a></h3>
+                            <span class="team-desig">Dance Instructor</span>
                             <div class="team-social">
-                                <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Single Item -->
-                <div class="col-md-6 col-lg-4 col-xl-3">
+                <!-- <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="team-box">
                         <div class="team-img">
                             <img src="assets/img/img_14.jpeg" alt="Team">
@@ -621,14 +714,43 @@ Team Area
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    <style>
+        /* Team Card Styling */
+
+
+/* Image Container */
+.team-img {
+  width: 100%;
+  height: 320px; /* Fixed height for all team image containers */
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* Add a subtle hover effect (optional) */
+.team-img:hover img {
+  transform: scale(1.05);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .team-img {
+    height: 280px; /* Slightly smaller on mobile */
+  }
+}
+        </style>
+    <!--==============================
 Testimonial Area  
 ==============================-->
-    <section class="testimonial-area space bg-smoke" data-bg-src="assets/img/img_21.jpeg">
+    <section class="testimonial-area space bg-smoke" >
+    <!-- <section class="testimonial-area space bg-smoke" data-bg-src="assets/img/img_21.jpeg"> -->
+
         <div class="container">
             <div class="row text-center text-lg-start justify-content-lg-between align-items-end">
                 <div class="col-lg-8 mb-n2 mb-lg-0">
@@ -650,15 +772,15 @@ Testimonial Area
                 <div>
                     <div class="testi-card">
                         <div class="testi-content">
-                            <p class="testi-card_text">Rapidiously syndicate cross-unit imperatives rather than unique partnerships. Collaboratively mesh error-free catalysts for change without plug-and-play opportunities. Completely maximize dynamic methodologies via. Authoritatively enhance superior relationships before.</p>
+                            <p class="testi-card_text"> Very nice dance academy ! My kids loves going there . The instructor and management are very good .</p>
                             <div class="testi-card_wrapper">
                                 <div class="testi-card_profile">
                                     <div class="testi-card_avater">
                                         <img src="assets/img/img_2.jpeg" alt="Avater">
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="testi-card_name"><a href="#">David Milton</a></h3>
-                                        <span class="testi-card_desig">dance student</span>
+                                        <h3 class="testi-card_name"><a href="#">ANSHIKHA KOHLI </a></h3>
+                                        <!-- <span class="testi-card_desig">dance student</span> -->
                                     </div>
                                 </div>
                                 <div class="testi-card_quote">
@@ -671,15 +793,16 @@ Testimonial Area
                 <div>
                     <div class="testi-card">
                         <div class="testi-content">
-                            <p class="testi-card_text">Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar enim orci elit.</p>
+                            <p class="testi-card_text">Thoroughly enjoy all the performances and always amazed at the creativity 🙏💝
+                            Way to go!! All the best guys💕</p>
                             <div class="testi-card_wrapper">
                                 <div class="testi-card_profile">
                                     <div class="testi-card_avater">
                                         <img src="assets/img/img_3.jpeg" alt="Avater">
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="testi-card_name"><a href="#">David Milton</a></h3>
-                                        <span class="testi-card_desig">Senjuti das</span>
+                                        <h3 class="testi-card_name"><a href="#">Mili Chatterjee Ghosh</a></h3>
+                                        <!-- <span class="testi-card_desig">Senjuti das</span> -->
                                     </div>
                                 </div>
                                 <div class="testi-card_quote">
@@ -692,15 +815,16 @@ Testimonial Area
                 <div>
                     <div class="testi-card">
                         <div class="testi-content">
-                            <p class="testi-card_text">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Quisque velit nisi, vehicula eget at tellus.</p>
+                            <p class="testi-card_text">These are Talented, Professional team of girls. Very innovative and creative...
+                            All the best to them..</p>
                             <div class="testi-card_wrapper">
                                 <div class="testi-card_profile">
                                     <div class="testi-card_avater">
                                         <img src="assets/img/img_4.jpeg" alt="Avater">
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="testi-card_name"><a href="#">Abraham Khalil</a></h3>
-                                        <span class="testi-card_desig">dance student</span>
+                                        <h3 class="testi-card_name"><a href="#">Umesh Surywanshi</a></h3>
+                                        <!-- <span class="testi-card_desig">dance student</span> -->
                                     </div>
                                 </div>
                                 <div class="testi-card_quote">
@@ -774,15 +898,28 @@ Gallery Area
     </div><!--==============================
 Cta Area  
 ==============================-->
-    <section class="" data-pos-for=".blog-area" data-sec-pos="bottom-half">
+    <style>
+        .cta-area{
+            margin-bottom: 300px;
+        }
+
+        .cta-area{
+            position: relative;
+            background-size: cover;
+            background-position: center 85%; /* Move the image down by adjusting the vertical position */
+            padding: 80px 0;
+            overflow: hidden;
+        }
+    </style>
+    <section class="ContactUs" data-pos-for=".blog-area" data-sec-pos="bottom-half">
         <div class="container">
             <div class="cta-area" data-bg-src="assets/img/img_2.jpeg">
                 <div class="row justify-content-between">
                     <div class="col-xl-12">
-                        <h2 class="sec-title cta-title mt-n2">get your free registration </h2>
-                        <p class="cta-desc">[note: may want a registration form inserted here & linked to dance?]</p>
+                        <h2 class="sec-title cta-title mt-n2">Join Us Now</h2>
+                        <!-- <p class="cta-desc">[note: may want a registration form inserted here & linked to dance?]</p> -->
                         <div class="cta-btn text-center">
-                            <a href="/contact" class="th-btn">get started</a>
+                            <a href="https://form.jotform.com/artsspandan/class-registration-form" class="th-btn">Register Now</a>
                             <a href="/contact" class="th-btn white-btn">Contact Us</a>
                         </div>
                     </div>

@@ -6,146 +6,127 @@
     <div class="breadcumb-wrapper " data-bg-src="assets/img/img_9.jpeg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Classes</h1>
+                <h1 class="breadcumb-title">Services</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="/">Home</a></li>
-                    <li>Classes</li>
+                    <li>Services</li>
                 </ul>
             </div>
         </div>
     </div><!--==============================
 Servce Area  
 ==============================-->
-<section class="space bg-smoke couple-area-sec" id="classes">
-    <style>
-        .couple-card_img {
-            height: 200px;
-        }
-        .couple-card_img img {
-            height: 200px;
-        }
-        .couple-card{
-            height: 500px;
-        }
-    </style>
-    <div class="container">
-        <div class="row text-center text-lg-start justify-content-lg-between align-items-end">
-            <div class="col-lg-7 mb-n2 mb-lg-0">
-                <div class="title-area">
-                    <span class="sub-title style1  mt-n1">Our Dance Classes</span>
-                    <h2 class="sec-title">Dance Classes for everyone</h2>
-                </div>
-            </div>
-            <div class="col-lg-auto">
-                <div class="sec-btn">
-                    <div class="icon-box">
-                        <button data-slick-prev="#danceSlide" class="slick-arrow default"><i class="far fa-arrow-left"></i></button>
-                        <button data-slick-next="#danceSlide" class="slick-arrow default"><i class="far fa-arrow-right"></i></button>
+    <section class="space" id="service-sec">
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box style2">
+                        <div class="service-box_inner">
+                            <div class="service-box_icon">
+                                <img src="assets/img/icon/service_1_1.svg" alt="">
+                            </div>
+                            <div class="service-box_number">01</div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-box_title">
+                                <a href="#">Wedding Choreography</a>
+                                <!--Wedding Choreography-->
+                            </h3>
+                            <p class="service-box_text">Make your special day unforgettable with custom choreography for the couple, bridal party, or family performances that reflect your unique style and story.</p>
+                            <!--<a href="service.html" class="th-btn">Read More</a>-->
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row slider-shadow th-carousel" id="danceSlide" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1">
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_1.jpg" alt="couple">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box style2">
+                        <div class="service-box_inner">
+                            <div class="service-box_icon">
+                                <img src="assets/img/icon/service_1_2.svg" alt="">
+                            </div>
+                            <div class="service-box_number">02</div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-box_title">
+                                <a href="#">Event Performances</a>
+                                <!--Event Performances-->
+                            </h3>
+                            <p class="service-box_text">Professional dancers available for cultural events, corporate functions, festivals, and private celebrations with customized performances to suit your occasion.</p>
+                            <!--<a href="service.html" class="th-btn">Read More</a>-->
+                        </div>
                     </div>
-                    <h3 class="couple-card_title"><a href="">Kids/Youth Bollywood</a></h3>
-                    <p class="couple-card_text">Fun and energetic classes for ages 5-16. Learn popular moves from Indian cinema while developing rhythm, coordination, and confidence through colorful choreography.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_2.jpg" alt="couple">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box style2">
+                        <div class="service-box_inner">
+                            <div class="service-box_icon">
+                                <img src="assets/img/icon/service_1_6.svg" alt="">
+                            </div>
+                            <div class="service-box_number">03</div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-box_title">
+                                <a href="#">Private Lessons</a>
+                                <!--Private Lessons-->
+                            </h3>
+                            <p class="service-box_text">One-on-one instruction tailored to your specific goals and learning pace. Ideal for beginners seeking fundamentals or advanced dancers refining their technique.</p>
+                            <!--<a href="#" class="th-btn">Read More</a>-->
+                        </div>
                     </div>
-                    <h3 class="couple-card_title"><a href="">Kids/Youth Bolly Hip-hop/Jazz</a></h3>
-                    <p class="couple-card_text">Dynamic fusion classes blending Bollywood with contemporary styles. Young dancers explore creative movement while learning techniques from multiple dance traditions.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_3.jpg" alt="couple">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box style2">
+                        <div class="service-box_inner">
+                            <div class="service-box_icon">
+                                <img src="assets/img/icon/service_1_5.svg" alt="">
+                            </div>
+                            <div class="service-box_number">04</div>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-box_title">
+                                <a href="#">Virtual Lessons</a>
+                                <!--Virtual Lessons-->
+                            </h3>
+                            <p class="service-box_text">Learn from anywhere with our interactive online classes. Perfect for remote students or those with busy schedules who want to experience quality dance instruction from home.</p>
+                            <!--<a href="service.html" class="th-btn">Read More</a>-->
+                        </div>
                     </div>
-                    <h3 class="couple-card_title"><a href="">Kids/Youth Bharatanatyam</a></h3>
-                    <p class="couple-card_text">Classical Indian dance for young performers. Students learn foundational postures, expressive gestures, and storytelling in an engaging, age-appropriate format.</p>
-                    <!--<a href="" class="th-btn style3">Explore Details</a>-->
                 </div>
+                <!--<div class="col-md-6 col-lg-4">-->
+                <!--    <div class="service-box style2">-->
+                <!--        <div class="service-box_inner">-->
+                <!--            <div class="service-box_icon">-->
+                <!--                <img src="assets/img/icon/service_1_5.svg" alt="">-->
+                <!--            </div>-->
+                <!--            <div class="service-box_number">05</div>-->
+                <!--        </div>-->
+                <!--        <div class="service-content">-->
+                <!--            <h3 class="service-box_title"><a href="single-service.html">Online Class Support</a>-->
+                <!--            </h3>-->
+                <!--            <p class="service-box_text">Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Mauris blandit aliquet elit,</p>-->
+                <!--            <a href="service.html" class="th-btn">Read More</a>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="col-md-6 col-lg-4">-->
+                <!--    <div class="service-box style2">-->
+                <!--        <div class="service-box_inner">-->
+                <!--            <div class="service-box_icon">-->
+                <!--                <img src="assets/img/icon/service_1_6.svg" alt="">-->
+                <!--            </div>-->
+                <!--            <div class="service-box_number">06</div>-->
+                <!--        </div>-->
+                <!--        <div class="service-content">-->
+                <!--            <h3 class="service-box_title"><a href="single-service.html">Talented Dance Coacing</a>-->
+                <!--            </h3>-->
+                <!--            <p class="service-box_text">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor accumsan tincidunt.</p>-->
+                <!--            <a href="service.html" class="th-btn">Read More</a>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_4.jpg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="">Adult Bollywood</a></h3>
-                    <p class="couple-card_text">Experience the joy of Bollywood dance designed for all adult skill levels. Learn signature moves from classic and modern Indian cinema in a supportive environment.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_5.jpg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="/">Adult Bharatanatyam</a></h3>
-                    <p class="couple-card_text">Discover this classical dance form at your own pace. Our adult classes focus on developing grace, precision and expression through traditional technique.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_6.jpeg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="/">Adult Bollywood Workout</a></h3>
-                    <p class="couple-card_text">Get fit while having fun in our energetic fitness classes. Combine cardio exercise with dance moves from popular Indian films for an effective, enjoyable workout.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="couple-card">
-                    <div class="couple-card_img">
-                        <img src="assets/img/image_7.jpg" alt="couple">
-                    </div>
-                    <h3 class="couple-card_title"><a href="/">Kids Spring/summer camps</a></h3>
-                    <p class="couple-card_text">Immersive dance experiences during school breaks. Our camps teach various Indian dance styles while helping children create performances and make friends.</p>
-                    <!--<a href="/" class="th-btn style3">Explore Details</a>-->
-                </div>
-            </div>
-
-            <!--<div class="col-lg-4 col-md-6">-->
-            <!--    <div class="couple-card">-->
-            <!--        <div class="couple-card_img">-->
-            <!--            <img src="assets/img/img_13.jpeg" alt="couple">-->
-            <!--        </div>-->
-            <!--        <h3 class="couple-card_title"><a href="/">Cardio Dance</a></h3>-->
-            <!--        <p class="couple-card_text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sit amet aliquam.</p>-->
-            <!--        <a href="/" class="th-btn style3">Explore Details</a>-->
-            <!--    </div>-->
-            <!--</div>-->
-
-            <!--<div class="col-lg-4 col-md-6">-->
-            <!--    <div class="couple-card">-->
-            <!--        <div class="couple-card_img">-->
-            <!--            <img src="assets/img/img_2.jpeg" alt="couple">-->
-            <!--        </div>-->
-            <!--        <h3 class="couple-card_title"><a href="/">Break Dance</a></h3>-->
-            <!--        <p class="couple-card_text">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt quis ac velit lectus.</p>-->
-            <!--        <a href="/" class="th-btn style3">Explore Details</a>-->
-            <!--    </div>-->
-            <!--</div>-->
 
         </div>
-    </div>
-</section>
+    </section>
+    
     @include('partials.footer')

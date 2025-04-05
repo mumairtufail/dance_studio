@@ -266,181 +266,36 @@
 
 </head>
 
-<body>
+<bod>
 
-
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-
-
-
-
-    <!--==============================
-     Preloader
-  ==============================-->
-    <!-- <div class="preloader ">
-        <button class="th-btn preloaderCls">Cancel Preloader </button>
-        <div class="preloader-inner">
-            <img src="assets/img/logo.svg" alt="Danza">
-            <span class="loader"></span>
-        </div>
-    </div> -->
-    <!--==============================
-    Sidemenu
-============================== -->
-    <!-- <div class="sidemenu-wrapper shopping-cart ">
-        <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget woocommerce widget_shopping_cart">
-                <h3 class="widget_title">Shopping cart<span class="shape"></span></h3>
-                <div class="widget_shopping_cart_content">
-                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_1.jpg" alt="Cart Image">pink tutu skirt</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>17,00.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_2.jpg" alt="Cart Image">Tutu Clothing Skirt</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>16,00.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_3.jpg" alt="Cart Image">Tutu Dress Clothing</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>18,00.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_4.jpg" alt="Cart Image">pink tutu skirt</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>19,00.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_5.jpg" alt="Cart Image">Pink Ballet shoe</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>15,00.00</span>
-                            </span>
-                        </li>
-                    </ul>
-                    <p class="woocommerce-mini-cart__total total">
-                        <strong>Subtotal:</strong>
-                        <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
-                    </p>
-                    <p class="woocommerce-mini-cart__buttons buttons">
-                        <a href="cart.html" class="th-btn style7 wc-forward">View cart</a>
-                        <a href="checkout.html" class="th-btn style7 checkout wc-forward">Checkout</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--==============================
-    Sidemenu
-============================== -->
-    <!--<div class="sidemenu-wrapper ">-->
-    <!--    <div class="sidemenu-content">-->
-    <!--        <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>-->
-    <!--        <div class="widget  ">-->
-    <!--            <div class="th-widget-about">-->
-    <!--                <div class="about-logo">-->
-    <!--                    <a href="index.html"><img src="assets/img/Logo_Spandan_1.png" alt="Spandan"></a>-->
-    <!--                </div>-->
-    <!--                <p class="">Credibly synthesize visionary systems before functionalized channels. Dynamically enable-->
-    <!--                    intermediated relationships through.</p>-->
-
-    <!--                <div class="th-social">-->
-    <!--                    <h6 class="social-title">Follow Us:</h6>-->
-    <!--                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>-->
-    <!--                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>-->
-    <!--                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>-->
-    <!--                    <a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        <div class="widget  ">-->
-    <!--            <h3 class="widget_title">Recent Posts<span class="shape"></span></h3>-->
-    <!--            <div class="recent-post-wrap">-->
-    <!--                <div class="recent-post">-->
-    <!--                    <div class="media-img">-->
-    <!--                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>-->
-    <!--                    </div>-->
-    <!--                    <div class="media-body">-->
-    <!--                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">What to Have in Your Dance Bag</a></h4>-->
-    <!--                        <div class="recent-post-meta">-->
-    <!--                            <a href="blog.html"><i class="fal fa-calendar-days"></i>30 Oct, 2024</a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--                <div class="recent-post">-->
-    <!--                    <div class="media-img">-->
-    <!--                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>-->
-    <!--                    </div>-->
-    <!--                    <div class="media-body">-->
-    <!--                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">What to Have in Your Dance Bag</a></h4>-->
-    <!--                        <div class="recent-post-meta">-->
-    <!--                            <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2024</a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--                <div class="recent-post">-->
-    <!--                    <div class="media-img">-->
-    <!--                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>-->
-    <!--                    </div>-->
-    <!--                    <div class="media-body">-->
-    <!--                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">What to Have in Your Dance Bag</a></h4>-->
-    <!--                        <div class="recent-post-meta">-->
-    <!--                            <a href="blog.html"><i class="fal fa-calendar-days"></i>23 June, 2024</a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--                <div class="recent-post">-->
-    <!--                    <div class="media-img">-->
-    <!--                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-4.jpg" alt="Blog Image"></a>-->
-    <!--                    </div>-->
-    <!--                    <div class="media-body">-->
-    <!--                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">What to Have in Your Dance Bag</a></h4>-->
-    <!--                        <div class="recent-post-meta">-->
-    <!--                            <a href="blog.html"><i class="fal fa-calendar-days"></i>23 June, 2024</a>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</div>-->
-    <!--<div class="popup-search-box d-none d-lg-block">-->
-    <!--    <button class="searchClose"><i class="fal fa-times"></i></button>-->
-    <!--    <form action="#">-->
-    <!--        <input type="text" placeholder="What are you looking for?">-->
-    <!--        <button type="submit"><i class="fal fa-search"></i></button>-->
-    <!--    </form>-->
-    <!--</div>-->
     <!--==============================
     Mobile Menu
   ============================== -->
     <div class="th-menu-wrapper">
+    <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
+                    <div class="col-auto d-none d-lg-block">
+                        <div class="header-links">
+                            <ul>
+                                <li><i class="fa-solid fa-phone"></i><a href="tel:+1631202-0088">+(163)-1202-0088</a></li>
+                                <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@Danza.com">artsspandan@gmail.com</a></li>
+                                <li><i class="fa-solid fa-location-dot"></i>Unit 110 - 16825 104 Ave , Surrey, BC V4N 4N2
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header-social">
+                            <span class="social-title">Follow Us : </span>
+                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
@@ -451,8 +306,10 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/classes">Classes</a></li>
                     <li><a href="/services">Classes</a></li>
-                                        <li><a href="/events">Event</a></li>
+
+                     <li><a href="/events">Event</a></li>
                     <li><a href="/contact">Contact Us</a></li>
 
                 </ul>
@@ -469,8 +326,9 @@
                         <div class="header-links">
                             <ul>
                                 <li><i class="fa-solid fa-phone"></i><a href="tel:+1631202-0088">+(163)-1202-0088</a></li>
-                                <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@Danza.com">help24/7@gmail.com</a></li>
-                                <li><i class="fa-solid fa-location-dot"></i>835 Middle Country Rd, NY 11784, USA</li>
+                                <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@Danza.com">artsspandan@gmail.com</a></li>
+                                <li><i class="fa-solid fa-location-dot"></i>Unit 110 - 16825 104 Ave , Surrey, BC V4N 4N2
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -521,7 +379,7 @@
                                 <button type="button" class="icon-btn fs-6 sideMenuToggler">
                                     <i class="fa-thin fa-grid"></i>
                                 </button> -->
-                                <a href="https://docs.google.com/forms/u/4/d/1WYtPOEgJaNiz2ALMB3F01RZ-4Rk4C9030TVqSL2_Rww/edit?authuser=0" class="th-btn">Book Now</a>
+                                <a href="https://form.jotform.com/artsspandan/class-registration-form" class="th-btn">Enroll Now</a>
                             </div>
                         </div>
                     </div>
@@ -531,6 +389,7 @@
             <div class="menu-bg"></div>
         </div>
     </header>
+    
     <style>
         
 /*------------------- 4.00. Gallery -------------------*/
@@ -538,147 +397,7 @@
 .gallery-row {
   --bs-gutter-y: 1.5rem;
 }
-/* Base styles for all screen sizes */
-.gallery-row .filter-item .gallery-img {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: relative;
-}
-
-.gallery-row .filter-item .gallery-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Small mobile devices (320px and up) */
-@media (min-width: 320px) {
-  .gallery-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-  
-  .gallery-row .filter-item {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  
-  .gallery-row .filter-item .gallery-img {
-    height: 250px;
-  }
-}
-
-/* Medium mobile devices (576px and up) */
-@media (min-width: 576px) {
-  .gallery-row .filter-item {
-    width: calc(50% - 10px);
-  }
-  
-  .gallery-row .filter-item:nth-child(3) .gallery-img {
-    height: 350px;
-  }
-}
-
-/* Tablets (768px and up) */
-@media (min-width: 768px) {
-  .gallery-row {
-    gap: 20px;
-  }
-  
-  .gallery-row .filter-item {
-    width: calc(50% - 10px);
-  }
-}
-
-/* Small to medium desktops (992px and up) */
-@media (min-width: 992px) and (max-width: 1399px) {
-  /* Set up a flex container with consistent spacing */
-  .gallery-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-  }
-  
-  /* Two items per row with percentage-based width */
-  .gallery-row .filter-item {
-    width: calc(50% - 15px);
-    margin: 0 0 30px 0;
-  }
-  
-  /* Special handling for the third (tall) item */
-  .gallery-row .filter-item:nth-child(3) {
-    width: calc(33% - 20px);
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  /* Image sizing */
-  .gallery-row .filter-item .gallery-img {
-    width: 100%;
-    height: 30vw;  /* Height based on viewport width */
-    max-height: 300px;
-  }
-  
-  /* Make the third image taller */
-  .gallery-row .filter-item:nth-child(3) .gallery-img {
-    height: 60vw;
-    max-height: 600px;
-  }
-  
-  /* Clear the 3rd item to a new line */
-  .gallery-row .filter-item:nth-child(3) {
-    clear: both;
-  }
-  
-  /* Make sure 4th and 5th are on the same line */
-  .gallery-row .filter-item:nth-child(4),
-  .gallery-row .filter-item:nth-child(5) {
-    clear: none;
-  }
-}
-
-/* Extra large desktops (1400px and up) */
-@media (min-width: 1400px) {
-  /* Keep the same flex layout but increase sizes */
-  .gallery-row {
-    gap: 20px;
-  }
-  
-  .gallery-row .filter-item:nth-child(1),
-  .gallery-row .filter-item:nth-child(2) {
-    margin-bottom: 20px;
-  }
-  
-  .gallery-row .filter-item:nth-child(1) .gallery-img {
-    width: 425px;
-    height: 275px;
-  }
-  
-  .gallery-row .filter-item:nth-child(2) .gallery-img {
-    width: 375px;
-    height: 275px;
-  }
-  
-  .gallery-row .filter-item:nth-child(3) .gallery-img {
-    width: 325px;
-    height: 580px;
-  }
-  
-  .gallery-row .filter-item:nth-child(4) .gallery-img {
-    width: 375px;
-    height: 275px;
-  }
-  
-  .gallery-row .filter-item:nth-child(5) .gallery-img {
-    width: 425px;
-    height: 275px;
-  }
-}
-
-/* Your existing styles for very large screens */
+/* Large screens (1650px and above) - your existing code */
 @media (min-width: 1650px) {
   .gallery-row .filter-item .gallery-img img {
     width: 100%;
@@ -753,6 +472,95 @@
   .gallery-row .filter-item:nth-child(7) .gallery-img {
     width: 545px;
     height: 300px;
+  }
+}
+
+/* Medium to Large screens (1400px to 1649px) */
+@media (min-width: 1400px) and (max-width: 1649px) {
+  .gallery-row .filter-item:nth-child(1) .gallery-img,
+  .gallery-row .filter-item:nth-child(1) .gallery-img img {
+    width: 425px;
+    height: 270px;
+  }
+
+  .gallery-row .filter-item:nth-child(2) .gallery-img,
+  .gallery-row .filter-item:nth-child(2) .gallery-img img {
+    width: 365px;
+    height: 270px;
+  }
+
+  .gallery-row .filter-item:nth-child(3) .gallery-img,
+  .gallery-row .filter-item:nth-child(3) .gallery-img img {
+    width: 305px;
+    height: 560px;
+  }
+
+  .gallery-row .filter-item:nth-child(4) .gallery-img,
+  .gallery-row .filter-item:nth-child(4) .gallery-img img {
+    width: 355px;
+    height: 270px;
+  }
+
+  .gallery-row .filter-item:nth-child(5) .gallery-img,
+  .gallery-row .filter-item:nth-child(5) .gallery-img img {
+    width: 415px;
+    height: 270px;
+  }
+
+  .gallery-row .filter-item:nth-child(6) .gallery-img,
+  .gallery-row .filter-item:nth-child(6) .gallery-img img {
+    width: 605px;
+    height: 280px;
+  }
+
+  .gallery-row .filter-item:nth-child(7) .gallery-img,
+  .gallery-row .filter-item:nth-child(7) .gallery-img img {
+    width: 510px;
+    height: 280px;
+  }
+}
+
+/* Screens below 1400px */
+@media (max-width: 1399px) {
+  /* Make the gallery items display in a grid with equal sizes */
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .gallery-row .filter-item {
+    /* Each item will take up approximately 1/3 of the container minus the gap */
+    width: calc(33.333% - 15px);
+  }
+  
+  /* For screens between 768px and 991px, make it 2 columns */
+  @media (max-width: 991px) {
+    .gallery-row .filter-item {
+      width: calc(50% - 15px);
+    }
+  }
+  
+  /* For screens below 768px, make it 1 column */
+  @media (max-width: 767px) {
+    .gallery-row .filter-item {
+      width: 100%;
+    }
+  }
+  
+  /* Make all images have the same aspect ratio */
+  .gallery-row .filter-item .gallery-img,
+  .gallery-row .filter-item .gallery-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Only the tall image (3rd child) maintains its tall proportion */
+  .gallery-row .filter-item:nth-child(3) .gallery-img,
+  .gallery-row .filter-item:nth-child(3) .gallery-img img {
+    height: 500px;
   }
 }
 

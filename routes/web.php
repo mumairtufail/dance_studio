@@ -48,3 +48,7 @@ Route::get('/events', function () {
 Route::get('/services', function () {
     return view('pages.services.services');
 });
+
+Route::get('/classes', function () {
+    return view('pages.services.classes');
+});
